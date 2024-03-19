@@ -19,12 +19,31 @@ This repository contains the HeteroDTA deep learning model, which is designed fo
 ## Datasets
 All publicly accessible datasets used can be accessed here:
 
-| Dataset | link |
-|----|----|
-| Davis, KIBA| https://github.com/hkmztrk/DeepDTA/tree/master/data|
-| Human and C.elegans | https://github.com/masashitsubaki/CPI_prediction|
+| Dataset Name        | Link                                                |
+|---------------------|-----------------------------------------------------|
+| Davis, KIBA         | https://github.com/hkmztrk/DeepDTA/tree/master/data |
+| Human and C.elegans | https://github.com/masashitsubaki/CPI_prediction    |
 
-## Usage
+> Note: It is necessary to download the corresponding data set and then place it in the corresponding directory named "data" on your own machine for subsequent data preprocessing
+
+## Pre-trained model
+All publicly accessible models used can be accessed here:
+
+| Model Name | Link |
+|----|----|
+| GEM| https://github.com/PaddlePaddle/PaddleHelix|
+| ESM |https://github.com/facebookresearch/esm|
+
+> Note: It is necessary to read the corresponding Github guidelines and use pre-trained models on your own machine to preprocess your chosen datasets or your own private datasets
+
+- The role of GEM: obtain atomic embeddings in compounds
+- The role of ESM: (a) predict protein structure; (b) obtain embeddings of amino acids in proteins
+
+## Install tutorial
+> Notes: 
+> - Before training or inference, the datasets used must be preprocessed 
+> - Please refer to the individual script files for more detailed instructions and options.
+
 1. Clone the repository
     ``` shell
    git clone https://github.com/daydayupzzl/HeteroDTA.git
@@ -32,18 +51,48 @@ All publicly accessible datasets used can be accessed here:
    ```
 2. Install the required dependencies
     ``` shell
-    pip install xxx # Please follow comsole's feedback and install the missing packages until there is no lack of dependencies
+    pip install SomePackage # Please follow comsole's feedback and install the missing packages until there is no lack of dependencies
     ```
-3. Training
-    ``` shell
-    python train.py --dataset your_dataset --options your_options
-    ```
-4. Inference
-    ``` shell
-    python train.py --dataset your_dataset --options your_options
-    ```
-> Please refer to the individual script files for more detailed instructions and options.
+## Training tutorial
+1. Make sure you have the necessary Python libraries installed, including PyTorch.
+2. Open a terminal (Command Prompt on Windows, or Terminal on Mac/Linux).
+3. Navigate to the directory containing the file.
+4. Run the following command:
 
+    ``` shell
+    python training.py <dataset_index> <cuda_index> <dataset_type_index>
+    ```
+   Replace <dataset_index>, <cuda_index>, and <dataset_type_index> with the following values:
+   
+   - dataset_index: Dataset index. 0 for 'davis', 1 for 'kiba'.
+   - cuda_index: GPU index. 0 for 'cuda:0', 1 for 'cuda:1'.
+   - dataset_type_index: Dataset type index. 0 for 'original', 1 for 'cold_drug', 2 for 'cold_protein', 3 for 'cold_pair'.
+   
+   For example:
+   ``` shell
+   python your_script_name.py 0 0 0 v1
+    ```
+   This will run the script, using the "davis" dataset, utilizing the first GPU, and employing the original dataset type.
+
+## Inference tutorial
+1. Ensure that you have trained one model
+2. Open a terminal (Command Prompt on Windows, or Terminal on Mac/Linux). 
+3. Navigate to the directory containing the file.
+4. Run the following command:
+   ``` shell
+   python inference.py <dataset_index> <cuda_index> <dataset_type_index>
+    ```
+   Replace <dataset_index>, <cuda_index>, and <dataset_type_index> with the following values:
+   - dataset_index: Dataset index. 0 for 'davis', 1 for 'kiba'.
+   - cuda_index: GPU index. 0 for 'cuda:0', 1 for 'cuda:1', 2 for 'cuda:2', 3 for 'cuda:3'.
+   - dataset_type_index: Dataset type index. 0 for 'original', 1 for 'cold_drug', 2 for 'cold_protein', 3 for 'cold_pair'.
+   
+   For example:
+   ``` shell
+   python inference.py 0 0 0
+    ```
+   This will execute the script, using the "davis" dataset, utilizing the first GPU, and employing the original dataset type.
+   
 ## Citation
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
 ``` text
