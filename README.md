@@ -3,14 +3,10 @@
   <img src="png\avatar.png" width="30%" alt="Avatar" style="border-radius: 20px; ">
 </p>
 
----
-
 🥰 This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
 
 
 ## :satisfied: Requirements
-
----
 - numpy == 1.17.4 
 - kreas == 2.3.1 
 - pytorch == 1.8.0 
@@ -26,7 +22,6 @@
 
 ## :rainbow: Datasets
 
----
 All publicly accessible datasets used can be accessed here:
 
 | Dataset Name        | Link                                                |
@@ -38,7 +33,6 @@ All publicly accessible datasets used can be accessed here:
 
 ## :rocket: Pre-trained model
 
----
 All publicly accessible models used can be accessed here:
 
 | Model Name | Link                                        |
@@ -53,7 +47,6 @@ All publicly accessible models used can be accessed here:
 
 ## :aerial_tramway: Install tutorial
 
----
 > :construction: Notes: 
 > - Before training or inference, the datasets used must be preprocessed 
 > - Please refer to the individual script files for more detailed instructions and options.
@@ -69,7 +62,6 @@ All publicly accessible models used can be accessed here:
     ```
 ## :page_with_curl: Training tutorial
 
----
 1. Make sure you have the necessary Python libraries installed, including PyTorch.
 2. Open a terminal (Command Prompt on Windows, or Terminal on Mac/Linux).
 3. Navigate to the directory containing the file.
@@ -92,7 +84,6 @@ All publicly accessible models used can be accessed here:
 
 ## :stuck_out_tongue_closed_eyes: Inference tutorial
 
----
 1. Ensure that you have trained one model
 2. Open a terminal (Command Prompt on Windows, or Terminal on Mac/Linux). 
 3. Navigate to the directory containing the file.
@@ -113,7 +104,6 @@ All publicly accessible models used can be accessed here:
    
 ## :heartpulse: Citation
 
----
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
 ``` text
     @article {,
