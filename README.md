@@ -1,7 +1,12 @@
 # <center> ⭐ HeteroDTA: Deep Learning Model for Drug-Target Affinity Prediction </center>
+<p align="center">
+  <img src="png\avatar.png" width="30%" alt="Avatar" style="border-radius: 20px; ">
+</p>
 
 ---
+
 🥰 This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
+
 
 ## :satisfied: Requirements
 
@@ -17,9 +22,9 @@
 - numpy==1.20.1 
 - scikit_learn==0.24.2 <br />
 
-> Note: There are some dependencies that are not listed, please install them independently according to the feedback from the console
+> :construction: Note: There are some dependencies that are not listed, please install them independently according to the feedback from the console
 
-## Datasets
+## :rainbow: Datasets
 
 ---
 All publicly accessible datasets used can be accessed here:
@@ -29,9 +34,9 @@ All publicly accessible datasets used can be accessed here:
 | Davis, KIBA         | https://github.com/hkmztrk/DeepDTA/tree/master/data |
 | Human and C.elegans | https://github.com/masashitsubaki/CPI_prediction    |
 
-> Note: It is necessary to download the corresponding data set and then place it in the corresponding directory named "data" on your own machine for subsequent data preprocessing
+> :construction: Note: It is necessary to download the corresponding data set and then place it in the corresponding directory named "data" on your own machine for subsequent data preprocessing
 
-## Pre-trained model
+## :rocket: Pre-trained model
 
 ---
 All publicly accessible models used can be accessed here:
@@ -41,15 +46,15 @@ All publicly accessible models used can be accessed here:
 | GEM        | https://github.com/PaddlePaddle/PaddleHelix |
 | ESM        | https://github.com/facebookresearch/esm     |
 
-> Note: It is necessary to read the corresponding GitHub guidelines and use pre-trained models on your own machine to preprocess your chosen datasets or your own private datasets
+> :construction: Note: It is necessary to read the corresponding GitHub guidelines and use pre-trained models on your own machine to preprocess your chosen datasets or your own private datasets
 
 - The role of GEM: obtain atomic embeddings in compounds
 - The role of ESM: (a) predict protein structure; (b) obtain embeddings of amino acids in proteins
 
-## Install tutorial
+## :aerial_tramway: Install tutorial
 
 ---
-> Notes: 
+> :construction: Notes: 
 > - Before training or inference, the datasets used must be preprocessed 
 > - Please refer to the individual script files for more detailed instructions and options.
 
@@ -62,7 +67,7 @@ All publicly accessible models used can be accessed here:
     ``` shell
     pip install SomePackage # Please follow comsole's feedback and install the missing packages until there is no lack of dependencies
     ```
-## Training tutorial
+## :page_with_curl: Training tutorial
 
 ---
 1. Make sure you have the necessary Python libraries installed, including PyTorch.
@@ -85,7 +90,7 @@ All publicly accessible models used can be accessed here:
     ```
    This will run the script, using the "davis" dataset, utilizing the first GPU, and employing the original dataset type.
 
-## Inference tutorial
+## :stuck_out_tongue_closed_eyes: Inference tutorial
 
 ---
 1. Ensure that you have trained one model
@@ -106,7 +111,7 @@ All publicly accessible models used can be accessed here:
     ```
    This will execute the script, using the "davis" dataset, utilizing the first GPU, and employing the original dataset type.
    
-## Citation
+## :heartpulse: Citation
 
 ---
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
