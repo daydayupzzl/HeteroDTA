@@ -107,10 +107,10 @@ All publicly accessible models used can be accessed here:
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
 ``` text
     @article {,
-        author = {},
-        title = {},
-        year={},
-        publisher = {},
-        journal = {}
+        author = {Zhang, Zuolong and He, Xin and Long, Dazhi and Luo, Gang and Chen, Shengbo},
+        title = {Enhancing generalizability and performance in drug-target interaction identification by integrating pharmacophore and pre-trained models},
+        year={2024},
+        publisher = {Oxford University Press (OUP)},
+        journal = {Bioinformatics}
     }
 ```
