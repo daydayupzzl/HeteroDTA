@@ -10,8 +10,8 @@
   <img src="png\avatar.png" width="30%" alt="Avatar" style="border-radius: 20px; ">
 </p>
 
-## Introduction
-🥰 This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
+## 🥰 Introduction
+This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
 
 
 ## :satisfied: Requirements
