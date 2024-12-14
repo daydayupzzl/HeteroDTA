@@ -1,8 +1,14 @@
-# <center> ⭐ HeteroDTA: Deep Learning Model for Drug-Target Affinity Prediction </center>
+# <center> HeteroDTA: Deep Learning Model for Drug-Target Affinity Prediction </center>
 <p align="center">
   <img src="png\avatar.png" width="30%" alt="Avatar" style="border-radius: 20px; ">
 </p>
+[![Python 3.7](https://img.shields.io/badge/Python-3.7-blue)]()
+[![PyTorch 1.10+](https://img.shields.io/badge/PyTorch-1.10%2B-red)]()
+[![ESM](https://img.shields.io/badge/ESM%2B-green)]()
+[![rdkit 2023.3.2+](https://img.shields.io/badge/rdkit-2023.3.2%2B-purple)]()
+[![torch-geometric 2.3.1+](https://img.shields.io/badge/torch--geometric-2.3.1%2B-yellow)]()
 
+## Introduction
 🥰 This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
 
 
