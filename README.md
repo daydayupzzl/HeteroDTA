@@ -114,11 +114,18 @@ All publicly accessible models used can be accessed here:
 
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
 ``` text
-    @article {,
-        author = {Zhang, Zuolong and He, Xin and Long, Dazhi and Luo, Gang and Chen, Shengbo},
-        title = {Enhancing generalizability and performance in drug-target interaction identification by integrating pharmacophore and pre-trained models},
-        year={2024},
-        publisher = {Oxford University Press (OUP)},
-        journal = {Bioinformatics}
-    }
+@article{10.1093/bioinformatics/btae240,
+    author = {Zhang, Zuolong and He, Xin and Long, Dazhi and Luo, Gang and Chen, Shengbo},
+    title = {Enhancing generalizability and performance in drug–target interaction identification by integrating pharmacophore and pre-trained models},
+    journal = {Bioinformatics},
+    volume = {40},
+    number = {Supplement_1},
+    pages = {i539-i547},
+    year = {2024},
+    month = {06},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btae240},
+    url = {https://doi.org/10.1093/bioinformatics/btae240},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/40/Supplement\_1/i539/58355122/btae240.pdf},
+}
 ```
