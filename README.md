@@ -1,8 +1,14 @@
-# <center> ⭐ HeteroDTA: Deep Learning Model for Drug-Target Affinity Prediction </center>
+# <center> HeteroDTA: Deep Learning Model for Drug-Target Affinity Prediction </center>
+[![Python 3.7](https://img.shields.io/badge/Python-3.7-blue)]()
+[![PyTorch 1.10+](https://img.shields.io/badge/PyTorch-1.10%2B-red)]()
+[![ESM](https://img.shields.io/badge/ESM%2B-green)]()
+[![rdkit 2023.3.2+](https://img.shields.io/badge/rdkit-2023.3.2%2B-purple)]()
+[![torch-geometric 2.3.1+](https://img.shields.io/badge/torch--geometric-2.3.1%2B-yellow)]()
 <p align="center">
   <img src="png\avatar.png" width="30%" alt="Avatar" style="border-radius: 20px; ">
 </p>
 
+## 🍪: Introduction
 🥰 This repository contains the HeteroDTA deep learning model, which is designed for predicting drug-target affinity in drug discovery tasks. The model is implemented in Python and utilizes various deep learning techniques for accurate affinity predictions.
 
 
@@ -106,11 +112,18 @@ All publicly accessible models used can be accessed here:
 
 If you use this code or related methods in your research, please consider citing HeteroDTA paper (We will add the literature address in the future)
 ``` text
-    @article {,
-        author = {},
-        title = {},
-        year={},
-        publisher = {},
-        journal = {}
-    }
+@article{10.1093/bioinformatics/btae240,
+    author = {Zhang, Zuolong and He, Xin and Long, Dazhi and Luo, Gang and Chen, Shengbo},
+    title = {Enhancing generalizability and performance in drug–target interaction identification by integrating pharmacophore and pre-trained models},
+    journal = {Bioinformatics},
+    volume = {40},
+    number = {Supplement_1},
+    pages = {i539-i547},
+    year = {2024},
+    month = {06},
+    issn = {1367-4811},
+    doi = {10.1093/bioinformatics/btae240},
+    url = {https://doi.org/10.1093/bioinformatics/btae240},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/40/Supplement\_1/i539/58355122/btae240.pdf},
+}
 ```
